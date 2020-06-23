@@ -9,7 +9,7 @@ interface IProps {
 export const ActivityDetails: React.FC<IProps> = ({ activity }) => {
     return (
         <Card fluid>
-            <Image src={`/assets/categoryImages/${activity.category}.'jpg`} wrapped ui={false} />
+            <Image src={`/assets/categoryImages/${activity.category}.jpg`} wrapped ui={false} />
             <Card.Content>
                 <Card.Header>{activity.title}</Card.Header>
                 <Card.Meta>
