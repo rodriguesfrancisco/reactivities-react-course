@@ -56,7 +56,7 @@ export const ActivityForm: React.FC<IProps> = (
                 <Form.Input onChange={handleInputChange} name='title' placeholder='Title' value={activity.title} />
                 <Form.Input onChange={handleInputChange} control={TextArea} name='description' placeholder='Description' value={activity.description} />
                 <Form.Input onChange={handleInputChange} placeholder='Category' name='category' value={activity.category} />
-                <Form.Input onChange={handleInputChange} type='date' name='date' placeholder='Date' value={activity.date} />
+                <Form.Input onChange={handleInputChange} type='datetime-local' name='date' placeholder='Date' value={activity.date} />
                 <Form.Input onChange={handleInputChange} placeholder='City' name='city' value={activity.city} />
                 <Form.Input onChange={handleInputChange} placeholder='Venue' name='venue' value={activity.venue} />
                 <Button floated='right' positive type='submit' content='Submit' />
